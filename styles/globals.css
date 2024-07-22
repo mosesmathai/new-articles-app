@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form {
+  @apply flex flex-col shadow-md shadow-white/50 gap-2 m-4 w-full border border-gray-500 p-4 rounded-md
+}
+
+input, textarea {
+  @apply px-2 rounded-md text-black
+}
+
+textarea {
+  @apply h-48
+}
+
+
+.article-content {
+  padding: 10px;
+  width: 75%;
+}
+
+tr, td {
+  @apply border px-3 py-2
+}
+
+.form-sizing {
+  width: 70%;
+}
+
+.image-height {
+  height: 250px;
+}
+
+.font-size {
+  font-size: 11px;
+}
+
+.secondary-font-size {
+  font-size: 14px;
+}
+
+.article-wrapper {
+  max-width: 700px;
+}
